@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="style.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+		<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-T8Gy5hrqNKT+hzMclPo118YTQO6cYprQmhrYwIiQ/3axmI1hQomh7Ud2hPOy8SP1" crossorigin="anonymous">
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <script type="text/javascript" src="image_shape.js"></script>
+        <link rel="stylesheet" type="text/css" href="ico.css" />
+		<title>My new company</title>
+		<style> 
+           body { 
+                padding-top: 100px; 
+                padding-bottom: 100px;
+            }
+            .btn-modal{
+                top:10%;
+                width=300px;
+            }
+            .modal-dialog{
+               width: auto;
+            }
+        </style>
+	</head>
+    
+    <script>
+        $(document).ready(function(){
+            $('[data-toggle="popover"]').popover(); 
+        });
+    </script>
+    
+	<body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>
+                    <a class="navbar-brand" href="index.html">Monsters Inc</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html#about">ABOUT</a></li>
+                        <li><a href="index.html#services">SERVICES</a></li>
+                        <li><a href="index.html#portfolio">MOMENTS</a></li>
+                        <li><a href="characters.html">CHARACTERS</a></li>
+                        <li><a href="index.html#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotronic text-center">
+			<h1>Here are some of our charecters</h1>
+            <br/>
+		</div>
+		<div class="container">
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="http://img3.wikia.nocookie.net/__cb20131125223004/disney/images/thumb/3/38/Mike1.png/130px-0%2C537%2C7%2C482-Mike1.png" class="img img-responsive gallery-item" style="height: 115;width: 130;">
+                        <div class = "caption text-center">
+                            <h4>Mike Wazowski</h4>
+                            <p>
+                                <a href = "#" class = "btn btn-default " role = "button" data-html="true" data-toggle="modal" data-target="#modal1">
+                                    Info
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail" style="height: 115;width: 130;">
+                        <img src="http://img2.wikia.nocookie.net/__cb20160404022725/disney/images/thumb/b/bd/James_P._Sullivan.png/130px-0%2C2187%2C34%2C1969-James_P._Sullivan.png" class="img img-responsive gallery-item" style="height: 115;width: 130;">
+                        <div class = "caption text-center">
+                            <h4>James P. Sullivan</h4>
+                            <p>
+                                <a href = "#" class = "btn btn-default " role = "button" data-html="true" data-toggle="modal" data-target="#modal2">
+                                    Info
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="http://img1.wikia.nocookie.net/__cb20160404022733/disney/images/thumb/8/86/Randall.png/130px-0%2C2071%2C34%2C1866-Randall.png" class="img img-responsive gallery-item" style="height: 115;width: 130;">
+                        <div class = "caption text-center">
+                            <h4>Randall Boggs</h4>
+                            <p>
+                                <a href = "#" class = "btn btn-default " role = "button" data-html="true" data-toggle="modal" data-target="#modal3">
+                                    Info
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="http://img2.wikia.nocookie.net/__cb20160404021602/disney/images/thumb/5/51/Henry_J._Waternoose_III.jpg/130px-140%2C2063%2C0%2C1700-Henry_J._Waternoose_III.jpg" class="img img-responsive " style="height: 115;width: 130;">
+                        <div class = "caption text-center">
+                            <h4>Henry J. Waternoose</h4>
+                            <p>
+                                <a href = "#" class = "btn btn-default " role = "button" data-html="true" data-toggle="modal" data-target="#modal4">
+                                    Info
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="http://img1.wikia.nocookie.net/__cb20130704183109/disney/images/thumb/7/7c/Boo.png/130px-0%2C371%2C7%2C335-Boo.png" class="img img-responsive gallery-item" style="height: 115;width: 130;">
+                        <div class = "caption text-center">
+                            <h4>Boo</h4>
+                            <p>
+                                <a href = "#" class = "btn btn-default " role = "button" data-html="true" data-toggle="modal" data-target="#modal5">
+                                    Info
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail" style="height: 115;width: 130;">
+                        <img src="http://img2.wikia.nocookie.net/__cb20130709122258/disney/images/thumb/e/ed/Monsters_Inc_Celia_Mae.jpg/130px-0%2C142%2C7%2C133-Monsters_Inc_Celia_Mae.jpg" class="img img-responsive gallery-item" style="height: 115;width: 130;">
+                        <div class = "caption text-center">
+                            <h4>Celia Mae</h4>
+                            <p>
+                                <a href = "#" class = "btn btn-default " role = "button" data-html="true" data-toggle="modal" data-target="#modal6">
+                                    Info
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="http://img1.wikia.nocookie.net/__cb20110110033400/disney/images/thumb/8/8b/Roz.jpg/130px-14%2C594%2C0%2C512-Roz.jpg" style="height: 115;width: 130;">
+                        <div class = "caption text-center">
+                            <h4>Roz</h4>
+                            <p>
+                                <a href = "#" class = "btn btn-default " role = "button" data-html="true" data-toggle="modal" data-target="#modal7">
+                                    Info
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="thumbnail">
+                        <img src="http://img2.wikia.nocookie.net/__cb20131228002831/disney/images/thumb/3/39/George_Sanderson.png/130px-0%2C360%2C5%2C323-George_Sanderson.png" class="img img-responsive " style="height: 115;width: 130;">
+                        <div class = "caption text-center">
+                            <h4>George Sanderson</h4>
+                            <p>
+                                <a href = "#" class = "btn btn-default " role = "button" data-html="true" data-toggle="modal" data-target="#modal8">
+                                    Info
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="modal fade btn-modal" id="modal1" role="dialog">
+                    <div class="modal-dialog" >
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">Mike Wasowski</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img class="img img-responsive" src="mike.jpg">
+                                    </div>
+                                    <h4>Personality</h4>
+                                    <p>Mike Wazowski is a proud and confident monster, partly defined by his friendship with James P. Sullivan, whom he works with as his Scaring Assistant, and drives him through an exercise regimen like a strict coach.<br/> They're best friends, room-mates, incredibly devoted to each other, although Mike seeks to improve their careers, partly because of the hard work and everything they've ever put into their jobs. He tried really hard to make sure they won the Olympic games so that he could prove he was able to be there. He is very confident and brave.
+                                    <br/><br/>
+                                        Mike has a romantic side, shown by his dating Celia Mae, whom he tells Sulley "is the one," presumably the one Mike wants to tie the knot with, and refers to as his "schmoopsie-poo," although he has a self-centered side, as he once commented "[he] oughta marry [himself]."
+                                    <br/><br/>
+                                        Like all monsters, Mike believes that human children are toxic with a poisonous touch, and his perfect world comes crashing down on his date with Celia when Sulley shows up with a human girl, whom he is much more afraid of than Sulley, believing the kid is "a killing machine," seeing her as a threat, to his and Sulley's lives, well-beings, their careers, referring to her as "it," a "thing," and not as a child, and was determined, if not desperate, to get rid of her, evident by wanting to put her back in the human world through any door, not just her own. Another reason he was warded from her might have been a pent-up resentment towards children when he realized they weren't scared of him.
+                                        <br/><br/>
+                                        His patience with Sulley was strained and tested to the point where Mike finally turned his back on Sulley but caved in, realizing that Boo was innocent, the bond Sulley had made with her was strong, and he followed Sulley back to help him save Boo from Randall Boggs  and Mr. Waternoose .<br/><br/>
+
+After stranding Randall in the human world, and exposing Waternoose's plan to the CDA, Mike gave Boo his own fond farewell, tell her it had been fun, showing he too had come to care about her when they shared a hug.
+                                        <h4>Appearances</h4>
+                                            Unfortunately, as a young child, Mike didn't have many friends, as a result, when he and his class went on a field trip to Monsters, Inc., and he was partnered with the teacher. Mike was amazed at the scare floor and the scarers themselves, and one scarer, "Frightening" Frank McCay, told him that he learned how to be a scarer at Monsters University. Mike secretly followed Frank into a door he was scaring in, much to the shock of his class and teacher. Frank was amazed, not even knowing Mike had been in the room with him, and gave him his Monsters University cap. Mike decided from then on that he would grow up to be the best scarer of all.
+                                    
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="modal fade btn-modal" id="modal2" role="dialog">
+                    <div class="modal-dialog" >
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">James P. Sullivan</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img class="img img-responsive" src="sully2.png">
+                                    </div>
+                                    <h4>Background</h4>
+                                    <p>Sulley is a top scarer under his boss Henry J. Waternoose, III, who is the CEO of Monsters, Inc. Sulley's best friend and sidekick is Mike Wazowski. His mother is Mrs. Sullivan (who is not seen in the movie, but mentioned by Mike) and his dad is the famous scarer Bill Sullivan. When he is first seen, Sulley is the top scarer at Monsters, Inc., responsible for generating the majority of scares that provide power for the city of Monstropolis.
+                                    <br/><br/>
+                                        <h4>Personality</h4>
+                                       In Monsters University, 18-year-old Sulley was shown to be very different than he was later in life.
+                                    <br/>
+                                       Being the son of Bill Sullivan, an accomplished Scarer, and having the natural talent that came from his family, Sulley was more laid-back, arrogant, cocky, immature, a slacker and something of a party animal. Because of his talent and coming from a family with plenty of accomplished scarers, Sulley wasn't a model student, once stating "You don't need to study Scaring; you just do it!"
+                                        <br/><br/>
+                                       He developed a competitive rivalry with a fellow student in the Scaring Program, Mike Wazowski, who had the brains and intelligence for Scaring but not the natural talent. He was also chosen to join the Roar Omega Roar fraternity due to his Scaring talent. To his frustration however, Mike was beating him in class because of Mike's keen studying while Sulley wasn't doing well. Johnny Worthington III temporarily took his jacket unless Sulley passed the exam and not losing to Mike.<br/><br/>
+                                        Sulley realized just having the talent wasn't enough when Dean Hardscrabble kicked him and Mike out of the Scare Program, for which he blamed Mike (evident by constantly glaring at him and crushing a scream-canister in his hands). Roar Omega Roar also took the jacket away, which meant that he was kicked out of their group. But later, he was desperate enough to join Mike and the Oozma Kappa fraternity to get back in by winning the Scare Games when he overheard Mike and Hardscrabble's wager, that if OK won, the whole team would be allowed in the Scaring Program.
+                                        <h4>Physical appearance</h4>
+                                        Sulley is a large hairy blue monster with purple spots and periwinkle eyes. He has curved horns, white claws, razor sharp fangs, and white spikes that run down his backside to the end of his long dinosaur-like tail, and has a large furry belly. He has bushy eyebrows and a dark teal nose. In Monsters University, it is revealed he sheds and was thinner with mullet like hair.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+                <div class="modal fade btn-modal" id="modal3" role="dialog">
+                    <div class="modal-dialog" >
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">Randall Boggs</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img class="img img-responsive" src="randall.jpg">
+                                    </div>
+                                    <h4>Physical Description</h4>
+                                    <p>In Monsters University, Randall is seen as a young and pimple-faced teenager. He sometimes wears his purple glasses, but stops wearing them near the end of the film.<br/><br/>
+                                    In Monsters, Inc., Randall has 3 fronds, green eyes, 4 arms and legs and has the ability to completely blend in with his surroundings, making him invisible (as well as being able to cling to walls). He can also camouflage like a chameleon.
+                                    <br/><br/>
+                                        <h4>Personality</h4>
+                                       In Monsters University, Randall was originally a kind, timid teenage monster who would hang out with Mike. However, after Mike was forced to befriend Sulley and stopped associating with Randall, he felt hurt and this caused him to slowly turn on Mike and become his new enemy, even though he betrayed Mike in the first place.
+                                    <br/><br/>
+                                       In Monsters, Inc., Randall is greedy, ruthless, sneaky, short-tempered, competitive and overall evil in nature. As well, Randall is something of a selfish jerk who dosen't care about a lot of people. Judging by his intentions to capture children for their screams (and possibly never return them), he is probably willing to severly harm little kids (or worse).
+                                        <br/><br/>
+                                        <h4>Appearances</h4>
+                                        In the prequel, Randall (nicknamed "Randy") is first seen when Mike arrives to his new room, as Randall is his roommate. The two greet each other, and Randall seems nice, offering Mike first choice of the beds. Randall shows that he has the power to turn invisible, doing so when surprised, leaving only his glasses hovering in mid air. Mike suggests that he should use that power when scaring, to Randall's surprise. He soon follows Mike's advice of getting rid of his glasses because they don't disappear whenever he turns invisible. Even though the two become great friends, Randall is worried about school and wonders if he'll manage to impress the cool kids, but Mike reassures him. He follows Mike and sits next to him on their first day of class.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>  
+        
+                <div class="modal fade btn-modal" id="modal4" role="dialog">
+                    <div class="modal-dialog" >
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">Henry J. Waternoose</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img class="img img-responsive" src="henry.jpg">
+                                    </div>
+                                    <p>Henry J. Waternoose (or Mr. Waternoose and simply Waternoose) is the hidden true main antagonist of Disney/Pixar's 2001 animated film, Monsters, Inc. He is the CEO of the company Monsters, Inc..<br/><br/>
+                                        <h4>Physical Description</h4>
+                                    Waternoose is a large obese gray monster, completely bald, with five eyes, and walks around on a set of six crab-like legs. He is always seen wearing a black tuxedo jacket over a white shirt, a red vest, and a black bow tie. When he was younger, he had an Afro-style hair and a chinless beard. A producer described him as a "cross between a spider and a crab."
+                                    <br/><br/>
+                                    <h4>Pesonality</h4>
+                                       Although Waternoose is an antagonist in this movie, he doesn't reveal his true colors until near the climax. Until then, he has a gentle, fatherly facade and is only driven to villainy out of desperation to keep Monsters, Inc. afloat in the midst of the energy crisis. He becomes more villainous as this drive and desperation strips away his morals and he is determined to not let anything stop what he thinks will be the best way for the company to keep going, never taking into account looking for other energy resources
+                                    <br/><br/>
+                                    <h4>Appearances</h4>
+                                       He is first shown at the very beginning of the film, informing Thaddeus Bile and the trainees about the dangers of a human child after Thaddeus has unsuccessfully attempted to frighten a simulation child in bed.
+                                        <br/><br/>
+                                       He was going to appear in the prequel, but this was dropped at the last minute. After Mike and Sulley begin their new jobs at Monsters, Inc., they eventually work their way up to the position of the scaring team job that they have in the first film. This is revealed to the viewer when Mike's M.I. locker shows photos of them beginning this job and shaking hands with Mr. Waternoose. This is likely when the bond between him and Sulley began to grow. In the photo, he sports an afro and a chinless beard which he lost sometime before M.I.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal fade btn-modal" id="modal5" role="dialog">
+                    <div class="modal-dialog" >
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">Mary Gibbs-Boo</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img class="img img-responsive" src="boo1.jpg">
+                                    </div>
+                                    <h4>Personality</h4>
+                                    <p>Boo is a toddler who is curious and naive. She can speak, but has baby, gibberish vocabulary. The only actual words she says in the film are "Boo!", "Kitty!" and "Mike Wazowski!"<br/><br/>
+                                    
+                                    <h4>Appearances</h4>
+                                       In the first film, Boo is a 2-year old human child who has escaped from her room from which Randall intended to kidnap her. Much of the film's plot follows what happens as Sulley and Mike try to get Boo back to safety.
+                                    <br/><br/>
+                                    When she first appears, Boo is very attached to Sulley (calling him "Kitty"), but he is not so keen. But as the film progresses, he develops a bond with her. At one point, Sulley, under Mr. Waternoose's orders, roars in front of a child used for simulation, not noticing that he has also scared Boo. Sulley tries to apologize to Boo, but she is too terrified of him and runs to cower underneath Waternoose's legs. Waternoose, who has caught sight of Boo, decides to take care of her before anything worse happens. After he and Randall banish Mike and Sulley to the Himalayas, they proceed with extracting screams from Boo by using the Scream Extractor. However, Sulley arrives at the last moment to disable the device to free Boo.
+                                        <br/><br/>
+                                       Mike catches up with them, and they rush back to Scare Floor F, with Randall in hot pursuit. Randall chases them to a large chamber where thousands of doors to human world are kept. Mike and Sulley then make Boo laugh to activate the doors, then they go through them, exiting the monster world and entering back into it, in order to lose Randall and reach Boo's door. Just as it looks like Mike and Sulley have lost Randall, Boo suddenly slips off from Sulley's arms, and Randall reveals that he has caught her.
+                                        <br/><br/>
+                                        Sulley manages to catch up with Boo, but then Randall ambushes Sulley. Just as Randall is about to finish Sulley off, Boo suddenly jumps on Randall and beats him with a baseball bat. Boo has managed to overcome her fear of monsters, especially Randall. After Mike and Sulley banish him through another door, disable that door, and let it fall to the bottom of the chamber to ensure that he will never return, Boo blows a raspberry directed at the shattered door. They open Boo's door, only to realize that the power has went out, but then, the door moves back to Scare Floor F, where Waternoose and the CDA agents are waiting. Mike runs off with Boo's monster costume as the agents goes after him while Waternoose notices Sulley with Boo and her door and chases them to the simulation room, where he is lured into a trap set by Mike. Mike exposes Waternoose's plot to kidnap a thousand children (possibly including Boo) to satisfy his own agenda to the agents, who then turn on Waternoose and arrest him.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade btn-modal" id="modal6" role="dialog">
+                    <div class="modal-dialog" >
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">Celia Mae</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img class="img img-responsive" src="celia.jpg">
+                                    </div>
+                                    <h4>Background</h4>
+                                    <p>Celia is the receptionist at Monsters, Inc., which means she takes calls by monsters and may click buttons for monster voicemail. Celia often calls Mike "Googley Bear" and "Googley Woogley" calls Sulley "Sulley-Wulley", Mike often calls her "Schmoopsie-poo" and Sulley, in return, calls her "Celia-Weelia".
+                                    <br/><br/>
+                                        <h4>Physical Description</h4>
+                                    Celia's dress is slick, sleeveless, green, with a scale print design, and has blueish-green puffy collar. She has a single aquamarine blue eye. Celia has one thing in common with her boyfriend: they both have one eye. Their eyes are also of similar colors
+                                    <br/><br/>
+                                    The snakes that make up her hair have a mind of their own; they make chirping noises when they're happy, rattle and hiss when they're mad, and they express fear when Celia thinks about getting a haircut (to which Mike respectfully objects, thus relieving them).
+                                    <br/><br/><br/>
+                                    <h4>Personality</h4>
+                                       Celia is normally a kind sweetheart, especially to her boyfriend Mike. While she may have an explosive temper when angered, she can calm down almost immediately when she is told the truth by Mike.
+                                    
+                                    When she first appears, Boo is very attached to Sulley (calling him "Kitty"), but he is not so keen. But as the film progresses, he develops a bond with her. At one point, Sulley, under Mr. Waternoose's orders, roars in front of a child used for simulation, not noticing that he has also scared Boo. Sulley tries to apologize to Boo, but she is too terrified of him and runs to cower underneath Waternoose's legs. Waternoose, who has caught sight of Boo, decides to take care of her before anything worse happens. After he and Randall banish Mike and Sulley to the Himalayas, they proceed with extracting screams from Boo by using the Scream Extractor. However, Sulley arrives at the last moment to disable the device to free Boo.
+                                        <br/><br/>
+                                       Mike catches up with them, and they rush back to Scare Floor F, with Randall in hot pursuit. Randall chases them to a large chamber where thousands of doors to human world are kept. Mike and Sulley then make Boo laugh to activate the doors, then they go through them, exiting the monster world and entering back into it, in order to lose Randall and reach Boo's door. Just as it looks like Mike and Sulley have lost Randall, Boo suddenly slips off from Sulley's arms, and Randall reveals that he has caught her...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade btn-modal" id="modal7" role="dialog">
+                    <div class="modal-dialog" >
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">Roz</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img class="img img-responsive" src="roz.jpg">
+                                    </div>
+                                    <h4>Personality</h4>
+                                    <p>
+                                        Roz is grumpy, especially to Mike Wazowski due that she is always bugging about paperwork.
+                                        <h4>Appearances</h4>
+                                        Roz is a slug-looking monster in the movie who appears to be the key master and administrator for Scare Floor F, holding all the keys to children's closet doors at Monsters, Inc. She is responsible for all of the paperwork done by Mike Wazowski, and she often works at an office near Scare Floor F that can be separated from the rest of the factory via a retractable shutter. Roz slams the shutter shut on Mike's hands at one point, crushing them and causing him to scream in pain.
+                                    <br/><br/>
+                                        In the end of the film, it turns out that Roz is Agent #000001 of the CDA. She gives Mike and Sulley five minutes to return Boo back to her room before anything happens to her. After Boo's door is shredded, Roz says that she doesn't want to see any paperwork about Boo's invasion contrary to her requests earlier in the film.
+                                    <br/><br/>
+                                        She is not seen again for the rest of the film, but frequently appears in the film "outtakes." One example is when she unexpectedly pops out of the toilet and startles Sulley, who has opened the bathroom door to get Boo. Another is when the CDA agents surprisingly find her taking place of George Sanderson, after he gets his fur shaved off and is showered. The third is when Sulley tries to show Boo that the closet is empty, only to find it occupied by Roz saying "Guess who!" In all three outtakes, Roz makes her infamous laugh, "Ahh-haa-haa!" and sends others bursting into laughter.
+                                    <br/><br/>
+                                    
+                                       Celia is normally a kind sweetheart, especially to her boyfriend Mike. While she may have an explosive temper when angered, she can calm down almost immediately when she is told the truth by Mike.
+                                    
+                                    When she first appears, Boo is very attached to Sulley (calling him "Kitty"), but he is not so keen. But as the film progresses, he develops a bond with her. At one point, Sulley, under Mr. Waternoose's orders, roars in front of a child used for simulation, not noticing that he has also scared Boo. Sulley tries to apologize to Boo, but she is too terrified of him and runs to cower underneath Waternoose's legs. Waternoose, who has caught sight of Boo, decides to take care of her before anything worse happens. After he and Randall banish Mike and Sulley to the Himalayas, they proceed with extracting screams from Boo by using the Scream Extractor. However, Sulley arrives at the last moment to disable the device to free Boo.
+                                        <br/><br/>
+                                       Mike catches up with them, and they rush back to Scare Floor F, with Randall in hot pursuit. Randall chases them to a large chamber where thousands of doors to human world are kept. Mike and Sulley then make Boo laugh to activate the doors, then they go through them, exiting the monster world and entering back into it, in order to lose Randall and reach Boo's door. Just as it looks like Mike and Sulley have lost Randall, Boo suddenly slips off from Sulley's arms, and Randall reveals that he has caught her...
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="modal fade btn-modal" id="modal8" role="dialog">
+                    <div class="modal-dialog" >
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h3 class="modal-title">George Sanderson</h3>
+                            </div>
+                            <div class="modal-body">
+                                <div class="row">
+                                    <div class="col-sm-4">
+                                        <img class="img img-responsive" src="george2.png">
+                                    </div>
+                                    
+                                    <p>
+                                        George Sanderson is a character from Monsters, Inc. and its prequel Monsters University. He is a monster that runs afoul of the CDA's "Code 2319" (contact with a human child) several times, forcing the CDA to shave and scrub him to remove any trace of human contact.
+                                        <h4>Appearances</h4>
+                                        George is a scarer on Scarefloor F at Monsters, Inc. He is a furry monster with a horn on top of his head. George is also very good friends with Mike, Sulley and Claws Ward.
+                                        <br/><br/>
+                                        When he comes out of his door one day, he has a child's sock on his back and when his assistant, Charlie sees the sock on his back, he gasps and shouts, "2319! We have a 2319!" The CDA agents arrive and remove the sock from George's back. The agents then shave George's fur off, have him showered, and place a cone on his head, making him lose his confidence.
+                                    <br/><br/>
+                                        Later on in the film, Sulley puts some of Boo's toys in George's locker which George accidentally left open, and when George opens it the next day, the toys fall on top of his head and Charlie calls again for the CDA agents who come and jump on George again putting more cones on him losing his confidence further.
+                                    <br/><br/>
+                                        Later, when Charlie manages to get a nervous George through a door from Nepal, Sulley bursts through after being banished and a sock falls on George's chest. Just as Charlie is about to call for the CDA again, George stuffs the sock into Charlie's mouth and throws Charlie into the kid's door and walks away happily while whistling.
+                                    <br/><br/>
+                                       At the end of the film, George's fur grows back and works on his own on the new Laugh Floor making kids laugh instead of trying to scare them. He was also seen carrying a watermelon and a sledgehammer, indicating that he was going to smash a watermelon with the hammer a la Gallagher's Sledge-O-Matic gag.
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-default modal-btn" data-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        
+        <div class="navbar navbar-fixed-bottom navbar-inverse navbar-default " id="social" role="navigation">
+            <div class="container" id="characters">
+                <div class="navbar-text pull-left text-center">
+                    <h4>&copy; Valentin Ivanov</h4>
+                </div>
+                <div class="navbar-text pull-right">
+                    <div class="col-md-12">
+                        <ul class="social-network social-circle">
+                            <li><a href="https://www.facebook.com/Valyo95" class="icoFacebook" title="Facebook"><i class="fa fa-facebook"></i></a></li>
+                            <li><a href="https://plus.google.com/102648080407554247210" class="icoGoogle" title="Google +"><i class="fa fa-google-plus"></i></a></li>
+                            <li><a href="https://www.linkedin.com/in/valentin-ivanov" class="icoLinkedin" title="Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                        </ul>				
+                    </div>
+                </div>
+            </div>
+        </div>
+	</body>
+</html>
